@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+.contener {
+    display: flex;
+    padding: 0 20%;
+    justify-content: space-between;
+}
+
+.header .contener ul li:first-child {
+    padding-left: 0;
+}
+
+.header .contener ul li {
+    display: inline-block;
+    padding: 0 1rem;
+    list-style: none;
+    color: white;
+}
+
+.header .contener ul li:last-child {
+    padding-right: 0;
+}
+
+.bg-grey {
+    background-color: #353434;
+}
+
+.entete {
+    align-items: center;
+    padding: 0 20%;
+    display: flex;
+    height: 150px;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.breukh {
+    color: aliceblue;
+    font-size: 3rem;
+    margin-top: 0.8rem;
+}
+
+.point {
+    font-size: 4rem;
+    color: red;
+}
+
+.dessous_droite {
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    background-color: aliceblue;
+  
+    color: rgb(107, 105, 105);
+    justify-content: space-between;
+    margin-left: 8rem;
+    transition: background-color 0.5s ease;
+    border-radius: 30em;
+    text-align: center;
+    
+}
+.tex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.fa-arrow-circle-right {
+    color: rgb(107, 105, 105);
+    font-size: 0.6rem;
+    margin-top: 0.4rem;
+   position: absolute;
+   margin-left: 6rem;
+   
+
+}
+
+.search {
+    background-color: red;
+   font-size: 2rem;
+    color: aliceblue;
+    margin-left: 12rem;
+    border-radius: 30em;
+    cursor: pointer;
+
+}
+
+
+
+.entete ul li {
+    align-items: center;
+    color: white;
+    display: flex;
+    margin-top: 1rem;
+
+}
+
+.chiffre1 {
+    background-color: red;
+    background-size: 1rem 1rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.chiffre2 {
+    background-color: red;
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.fa-heart {
+    margin-left: 2rem;
+    margin-bottom: -0.2rem;
+}
+
+.fa-shopping-cart {
+    margin-left: 2rem;
+    
+}
+
+.fa-solid {
+    color: red;
+}
+
+.fa-envelope {
+    color: red;
+}
+
+.fa-phone {
+    color: red;
+}
+
+.fa-map-marker {
+    color: red;
+}
+
+.barre ul li {
+    color: aliceblue;
+}
+
+.fa-heart-o {
+    color: white;
+}
+
+.entete2 {
+    display: flex;
+    padding: 0 20%;
+    justify-content: space-between;
+}
+
+.entete2 ul li {
+
+    align-items: center;
+    color: rgb(66, 64, 64);
+    display: flex;
+
+
+}
+
+.premier {
+    width: 70%;
+    display: flex;
+    margin-left: 20rem;
+
+}
+
+.entete2 ul li {
+    display: inline-block;
+    padding: 0 1rem;
+    list-style: none;
+    color: rgb(92, 89, 89);
+    cursor: pointer;
+}
+
+.img {
+    
+    position: relative;
+    background-color: white;
+    flex: 1;
+    padding: 2rem;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.text_interieur {
+    position: absolute;
+    margin-top: -2rem;
+    z-index: 1;
+}
+
+.laptop {
+    margin-top: -12rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.collec{
+    margin-top: -2rem;
+    font-size: 2rem;
+    color: white;
+    margin-right: 2rem;
+
+}
+.shop{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: white;
+    margin-right: 2rem; 
+}
+.acces {
+    margin-top: -12rem;
+    font-size: 3rem;
+    color: white;
+    margin-left:-1rem ;
+}
+
+.collec2{
+    margin-top: -2rem;
+    font-size: 2rem;
+    color: white;
+    margin-left: -1rem;
+    
+
+}
+.shop2{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: white;
+    margin-left: -1rem; 
+}
+.came {
+    margin-top: -12rem;
+    font-size: 3rem;
+    color: white;
+    margin-left:-1rem ;
+}
+
+.collec3{
+    margin-top: -2rem;
+    font-size: 2rem;
+    color: white;
+    margin-left: -1rem;
+    
+
+}
+.shop3{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: white;
+    margin-left: -1rem; 
+}
+.img::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: O;
+    background-color: rgb(247, 6, 6);
+    clip-path: polygon(0 0, 66% 0, 27% 66%, 0 66%);
+    opacity: 0.4;
+}
+
+.img_img2 {
+    
+
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.text_milieu {
+    width: 100%;
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    top: -20rem;
+}
+
+.text_milieu ul li {
+
+    display: inline-block;
+    padding: 0 1rem;
+    list-style: none;
+    color: rgb(92, 88, 88);
+}
+
+.new {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.text_milieu ul li:first-child {
+    padding-left: 0;
+
+}
+
+.text_milieu ul li:last-child {
+    padding-right: 0;
+}
+
+.deuxieme {
+    width: 70%;
+    display: flex;
+    margin-left: 20rem;
+    margin-bottom: 20rem;
+
+
+
+}
+
+.img_img4 {
+    text-align: center;
+    margin-right: 1rem;
+    border: 1px solid rgb(202, 197, 197);
+
+}
+
+.img_img5 {
+    text-align: center;
+    margin-right: 1rem;
+    border: 1px solid rgb(202, 197, 197);
+
+}
+
+.img_img6 {
+    text-align: center;
+    margin-right: 1rem;
+    border: 1px solid rgb(202, 197, 197);
+}
+
+.img_img7 {
+    text-align: center;
+    margin-right: 1rem;
+    border: 1px solid rgb(202, 197, 197);
+
+}
+
+.rouge {
+    font-size: 1rem;
+    color: red;
+}
+
+.bare {
+    font-size: 10px;
+    color: #777;
+    text-decoration: line-through;
+}
+
+.fa-star {
+    font-size: 8px;
+    color: red;
+}
+
+.iticone {
+
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.iticone ul li {
+    align-items: center;
+    display: inline-block;
+    padding: 0 0.6rem;
+    list-style: none;
+    color: rgb(74, 72, 72);
+}
